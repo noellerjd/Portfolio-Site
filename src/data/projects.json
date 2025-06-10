@@ -3,7 +3,7 @@
     "name": "Social Network Backend",
     "img": "/assets/images/snbackendimg.png",
     "link": "https://github.com/noellerjd/Social-Network-Backend",
-    "description": "The Social Network Backend is a RESTful API built using Express.js and MongoDB to support the core features of a social networking application. Designed with scalability and clean architecture in mind, it allows for full CRUD operations on users, thoughts (posts), reactions, and friend relationships. The backend is structured with modular Mongoose schemas and controllers, making it easy to maintain and extend. Relationships between users and their friends are modeled to reflect real-world connections, and input validation and error handling are implemented throughout to ensure data integrity. The application was thoroughly tested using Insomnia, ensuring reliable endpoints and a smooth developer experience."
+    "description": "My Social Network Backend is a RESTful API built using Express.js and MongoDB to support the core features of a social networking application. Designed with scalability and clean architecture in mind, it allows for full CRUD operations on users, thoughts (posts), reactions, and friend relationships. The backend is structured with modular Mongoose schemas and controllers, making it easy to maintain and extend. Relationships between users and their friends are modeled to reflect real-world connections, and input validation and error handling are implemented throughout to ensure data integrity. The application was thoroughly tested using Insomnia, ensuring reliable endpoints and a smooth developer experience."
   },
   {
     "name": "Example Project",
