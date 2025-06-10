@@ -27,14 +27,14 @@ export default function About() {
               for building intuitive, user-focused applications.
             </p>
             <p>
-              I bring a unique blend of development expertise and
+              I try to bring a unique blend of development expertise and
               problem-solving with a background in both technical and
               client-facing roles.
             </p>
             <p>
-              I&apos;ve contributed to internal tool development and improved
-              customer experiences through WordPress design and FileMaker-based
-              apps.
+              In my current role, I&apos;ve contributed to internal web and
+              application development and improved customer experiences through
+              WordPress design and FileMaker-based apps.
             </p>
           </div>
 
@@ -52,7 +52,8 @@ export default function About() {
             </p>
             {openSection === "languages" && (
               <p className="skill-list">
-                JavaScript, Python, HTML, CSS, React, Next.js, Java, NoSQL
+                JavaScript, Python, HTML, CSS, React, Next.js, Java, MySQL,
+                NoSQL, RESTful APIs
               </p>
             )}
 
@@ -64,7 +65,8 @@ export default function About() {
             </p>
             {openSection === "tools" && (
               <p className="skill-list">
-                Git, FileMaker, WordPress, VS Code, IntelliJ, Linux, Windows
+                Git, FileMaker, WordPress, VS Code, IntelliJ, Linux, Windows,
+                Docker
               </p>
             )}
           </div>
@@ -75,9 +77,9 @@ export default function About() {
               problems and build on my own understanding.
             </p>
             <p>
-              I also hold a Full-Stack Developer Certification from Denver
-              University and am pursuing a BS in Computer Science at Colorado
-              Technical University.
+              I hold a Full-Stack Web Developer Certification from Denver
+              University and I am currently pursuing a BS in Computer Science at
+              Colorado Technical University.
             </p>
             <p>Let&apos;s connect!</p>
           </div>

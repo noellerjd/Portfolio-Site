@@ -16,17 +16,6 @@
   padding: 0 1rem;
 }
 
-.about-heading {
-  margin-top: 70.8px;
-  text-align: center;
-  font-size: 3rem;
-  color: var(--lgreen);
-}
-
-/* .about-heading span {
-  color: var(--white);
-} */
-
 .about-description {
   background-color: var(--lblack);
   opacity: 0;
@@ -38,17 +27,12 @@
   font-size: 1.5rem;
   color: var(--white);
   justify-content: center;
-  margin-top: 90.8px;
+  margin-top: 70.8px;
   margin-bottom: 50px;
 }
 
-/* .about-description p:nth-child(1) {
-  animation-delay: 0.2s;
-} */
-
 .about-intro p:not(:first-child) {
   margin-top: 20px;
-  /* text-align: left; */
   transition: 0.5s ease-in-out;
 }
 
@@ -83,7 +67,6 @@
 }
 
 .about-socials {
-  /* background-color: var(--lgreen); */
   border-radius: 6px;
   padding-top: 10px;
   padding-bottom: 10px;
