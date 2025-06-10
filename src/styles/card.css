@@ -1,0 +1,123 @@
+:root {
+  --lblack: #424242;
+  --lgreen: #a4cf9b;
+  --lblue: #61dafb;
+  --grey: #dadada;
+  --white: #fff;
+  --dgreen: #5a874f;
+  --dblack: #222222;
+}
+
+.showcase {
+  display: flex;
+  justify-content: center;
+}
+
+#showcase-text {
+  margin-top: 90px;
+  font-size: 2.2rem;
+  background-color: var(--lblack);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+}
+
+#showcase-green {
+  color: var(--lgreen);
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  animation: fadeInUp 0.6s ease-out forwards;
+  flex-direction: row;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.project-img {
+  border-radius: 6px;
+  width: 100%;
+  padding: 3px;
+  background-color: var(--lgreen);
+  height: auto;
+  object-fit: cover;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.project-card {
+  background-color: var(--lblack);
+  border-radius: 8px;
+  width: 300px;
+  padding: 10px 20px 10px 20px;
+  margin: 20px;
+  color: var(--white);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-inner h1 {
+  margin-top: 30px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: var(--lgreen);
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+}
+
+.project-link .project-link:hover {
+  color: var(--lblue);
+  text-decoration: none;
+}
+
+.project-link:hover {
+  color: var(--lblue);
+}
+
+.project-arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  padding-right: 5px;
+}
+
+.project-link:hover .project-arrow {
+  transform: rotate(90deg);
+  color: var(--lblue);
+}
+
+.project-link:hover .project-img {
+  background-color: var(--lblue);
+}
+
+.project-description {
+  color: var(--grey);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-top: 15px;
+  text-align: left;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

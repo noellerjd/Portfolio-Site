@@ -16,9 +16,9 @@ export default function About() {
   return (
     <div className="about-center-wrapper">
       <Navbar />
-      <h1 className="about-heading">
+      {/* <h1 className="about-heading">
         Justin<span> Noeller</span>
-      </h1>
+      </h1> */}
       <div className="about-container">
         <div className="about-description">
           <div className="about-intro">
@@ -82,7 +82,10 @@ export default function About() {
             <p>Let&apos;s connect!</p>
           </div>
           <div className="about-socials">
-            <a href="https://www.linkedin.com/in/justin-noeller/">
+            <a
+              href="https://www.linkedin.com/in/justin-noeller/"
+              target="_blank"
+            >
               <Image
                 src="/assets/icons/linkedinlogo.png"
                 alt="LinkedIn logo"
@@ -90,7 +93,7 @@ export default function About() {
                 height={50}
               />
             </a>
-            <a href="https://github.com/noellerjd">
+            <a href="https://github.com/noellerjd" target="_blank">
               <Image
                 src="/assets/icons/githublogo.png"
                 alt="GitHub logo"
@@ -98,14 +101,14 @@ export default function About() {
                 height={50}
               />
             </a>
-            <a href="mailto:noellerjd@gmail.com">
+            {/* <a href="mailto:noellerjd@gmail.com" target="_blank">
               <Image
                 src="/assets/icons/emaillogo.png"
                 alt="Mail Logo"
                 width={50}
                 height={50}
               />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

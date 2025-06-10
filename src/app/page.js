@@ -1,15 +1,32 @@
 import Navbar from "./components/Navbar";
-import About from "./about/page.js";
+import ProjectCard from "./components/ProjectCard";
+import "../styles/card.css";
+import projectList from "../data/projects.json";
 
-export default function Home() {
+function Home() {
   return (
     <div>
-      <div>
-        <Navbar />
+      <Navbar />
+      <div className="showcase">
+        <h1 id="showcase-text">
+          <span id="showcase-green">Project</span> Showcase
+        </h1>
       </div>
-      <div>
-        <p>Test</p>
-      </div>
+      <section className="project-section">
+        <div className="project-container">
+          {projectList.map((project, i) => (
+            <ProjectCard
+              key={i}
+              img={project.img}
+              name={project.name}
+              link={project.link}
+              description={project.description}
+            />
+          ))}
+        </div>
+      </section>
     </div>
   );
 }
+
+export default Home;
