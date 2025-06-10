@@ -35,12 +35,6 @@
   transition: color 0.5s ease-in-out;
 }
 
-.logo:hover .logo-arrow {
-  transition: transform 1s linear;
-  transform: rotate(360deg);
-  color: #282c34;
-}
-
 .logo-white {
   color: var(--white);
 }
@@ -58,7 +52,26 @@
   padding-right: 2rem;
 }
 
-.header-links a:hover {
+.header-links a:hover span {
+  color: var(--lblue);
+}
+
+.about span {
+  color: var(--lgreen);
+}
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+  color: var(--lgreen);
+  padding-bottom: 1px;
+  padding-right: 2px;
+}
+
+.about:hover .arrow,
+.logo:hover .arrow {
+  transform: rotate(90deg);
   color: var(--lblue);
 }
 

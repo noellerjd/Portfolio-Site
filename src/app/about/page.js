@@ -41,13 +41,12 @@ export default function About() {
           <div className="toolkit">
             <p>My technical toolkit includes:</p>
 
-            {/* Section: Languages */}
             <p
               onClick={() => toggleSection("languages")}
               className="skill-toggle"
             >
               <b>
-                <span>{openSection === "languages" ? "▼" : ">"}</span> Languages
+                <span>{openSection === "languages" ? "▼" : "▶"}</span> Languages
                 & Frameworks
               </b>
             </p>
@@ -57,10 +56,9 @@ export default function About() {
               </p>
             )}
 
-            {/* Section: Tools */}
             <p onClick={() => toggleSection("tools")} className="skill-toggle">
               <b>
-                <span>{openSection === "tools" ? "▼" : ">"}</span> Tools &
+                <span>{openSection === "tools" ? "▼" : "▶"}</span> Tools &
                 Platforms
               </b>
             </p>
@@ -84,6 +82,14 @@ export default function About() {
             <p>Let&apos;s connect!</p>
           </div>
           <div className="about-socials">
+            <a href="https://www.linkedin.com/in/justin-noeller/">
+              <Image
+                src="/assets/icons/linkedinlogo.png"
+                alt="LinkedIn logo"
+                width={50}
+                height={50}
+              />
+            </a>
             <a href="https://github.com/noellerjd">
               <Image
                 src="/assets/icons/githublogo.png"
@@ -92,10 +98,10 @@ export default function About() {
                 height={50}
               />
             </a>
-            <a href="https://www.linkedin.com/in/justin-noeller/">
+            <a href="mailto:noellerjd@gmail.com">
               <Image
-                src="/assets/icons/linkedinlogo.png"
-                alt="LinkedIn logo"
+                src="/assets/icons/emaillogo.png"
+                alt="Mail Logo"
                 width={50}
                 height={50}
               />
