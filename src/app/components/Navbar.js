@@ -23,6 +23,14 @@ export default function Navbar() {
           </span>
           Me
         </Link>
+        <Link href="/projects" className="projects">
+          <span>
+            <span>
+              <span className="arrow">{`▶`}</span>Project
+            </span>
+          </span>
+          Showcase
+        </Link>
       </div>
     </div>
   );
