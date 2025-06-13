@@ -22,7 +22,7 @@ function Projects() {
               link={project.link}
               description={project.description}
               video={project.video}
-              technologies={project.tech}
+              technologies={project.technologies}
             />
           ))}
         </div>

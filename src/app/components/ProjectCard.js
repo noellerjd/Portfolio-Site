@@ -13,26 +13,38 @@ export default function projectCard(props) {
         height={200}
       />
       <div className="project-info">
-        <a href={props.link} className="project-link" target="_blank">
+        <div>
           <h1 className="project-title">
-            <span className="project-arrow">{"▶"}</span>
-            {props.name}
-          </h1>
-        </a>
-        {hasVideo && (
-          <p className="video-link">
-            <a href={props.video} target="_blank" rel="noopener noreferrer">
-              <span className="project-arrow">{"▶"}</span>Video Demonstration
+            <a href={props.link} className="project-link" target="_blank">
+              <span className="project-arrow">{"▶"}</span>
+              {props.name}
             </a>
-          </p>
-        )}
+          </h1>
+        </div>
+        <div>
+          {hasVideo && (
+            <p className="video-link">
+              <a href={props.video} target="_blank" rel="noopener noreferrer">
+                <span className="project-arrow">{"▶"}</span>Video Demonstration
+              </a>
+            </p>
+          )}
+        </div>
         <div className="project-description">
           <p className="project-text">
             {props.description.length > 300
               ? props.description.substring(0, 300) + "..."
               : props.description}
           </p>
-          <p className="project-tech">{props.technologies}</p>
+        </div>
+        <div className="project-tech">
+          <ul className="tech-list">
+            {props.technologies.map((tech, i) => (
+              <li key={i} className="tech-item">
+                {tech}
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>
