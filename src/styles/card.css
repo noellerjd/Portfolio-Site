@@ -36,12 +36,12 @@
   border-radius: 30px;
 }
 
-.project-img {
+/* .project-img {
   padding: 2px;
   margin: 10px;
   background-color: var(--dblack);
   border-radius: 30px;
-}
+} */
 
 .project-link {
   display: inline;
@@ -137,8 +137,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: max-content;
+    width: 60vw;
     padding: 10px;
+  }
+
+  .project-title {
+    font-size: x-large;
   }
 
   .project-info {

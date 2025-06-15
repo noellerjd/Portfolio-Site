@@ -5,13 +5,13 @@ export default function projectCard(props) {
 
   return (
     <div className="project-card">
-      <Image
+      {/* <Image
         className="project-img"
         src={props.img}
         alt={props.name}
         width={250}
         height={200}
-      />
+      /> */}
       <div className="project-info">
         <div>
           <h1 className="project-title">
@@ -32,9 +32,10 @@ export default function projectCard(props) {
         </div>
         <div className="project-description">
           <p className="project-text">
-            {props.description.length > 300
+            {/* {props.description.length > 300
               ? props.description.substring(0, 300) + "..."
-              : props.description}
+              : props.description} */}
+            {props.description}
           </p>
         </div>
         <div className="project-tech">
