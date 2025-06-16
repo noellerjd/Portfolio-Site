@@ -1,7 +1,12 @@
 [
   {
+    "name": "Type Bot",
+    "link": "https://github.com/noellerjd/typebot",
+    "description": "Personal Discord bot with functions such as an updating leaderboard, dice rolling, D&D XP storage, Whipser command, Welcome Messages, and user message reaction, etc.",
+    "technologies": ["Python", "Discord.py", "Docker"]
+  },
+  {
     "name": "Social Network Backend",
-    "img": "/assets/images/snbackendimg.png",
     "link": "https://github.com/noellerjd/Social-Network-Backend",
     "video": "https://drive.google.com/file/d/1GrH4DOhUiKbhD0XMeFkLAlR_IhyNJcv6/view",
     "description": "My Social Network Backend is a RESTful API built using Express.js and MongoDB to support the core features of a social networking application. Designed with scalability and clean architecture in mind, it allows for full CRUD operations on users, thoughts (posts), reactions, and friend relationships. The backend is structured with modular Mongoose schemas and controllers, making it easy to maintain and extend. Relationships between users and their friends are modeled to reflect real-world connections, and input validation and error handling are implemented throughout to ensure data integrity. The application was thoroughly tested using Insomnia, ensuring reliable endpoints and a smooth developer experience.",
@@ -9,7 +14,6 @@
   },
   {
     "name": "eCommerce Backend",
-    "img": "/assets/images/ecommerceimg.png",
     "link": "https://github.com/noellerjd/ECommerce-Back-End",
     "video": "https://drive.google.com/file/d/1xAHsyhtleL85svJW_P3ZliRFOM91sj2w/view",
     "description": "My eCommerce Back End is a RESTful API built using Node.js, Express.js, and MySQL, designed to power the backend of an online store. It leverages Sequelize to interact with the MySQL database through object-oriented JavaScript models. This app follows an MVC architecture, separating concerns across routes, models, and controllers. The objective of this project was to showcase the integration of a relational database with modern JavaScript server environments, highlighting the real-world backend development patterns such as API routing, data modeling, and asynchronous request handling. ",
@@ -17,14 +21,12 @@
   },
   {
     "name": "Payback Plan",
-    "img": "/assets/images/paybackplanimg.png",
     "link": "https://github.com/noellerjd/Payback-Plan",
     "description": "Payback Plan is a front-end React web application built as a way to track expenses and help allocate savings. JavaScript drives the main logic, and I also use Chart.js to help provide a visual aid.",
     "technologies": ["React", "Chart.js"]
   },
   {
     "name": "Task Manager App",
-    "img": "/assets/images/taskmanagerimg.png",
     "link": "https://github.com/noellerjd/Task-Manager-App",
     "description": "I made my Task Manager App in Python to help me personally keep track of events and deadlines. I used JSON to store data locally and wanted it to be something simple that would launch on startup and give notifications for any task that's due. It's a good foundation for further development, and is easily downloadable and works with Windows 10/11. I developed this with the hope that anyone who'd like to use the program wouldn't need any programming knowledge to run the app!",
     "technologies": ["Python", "JSON", "PyQt5"]

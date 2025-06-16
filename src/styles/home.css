@@ -137,6 +137,39 @@ html {
   color: var(--lgreen);
 }
 
+.edu-link {
+  color: var(--lgreen);
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+
+.edu-link:hover {
+  color: var(--lblue);
+}
+
+#skills-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.skills-box {
+  width: 85vw;
+}
+
+.skills-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skills-title {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: var(--lgreen);
+}
+
 @media screen and (max-width: 1006px) {
   .dev-box {
     flex-direction: column;

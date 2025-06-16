@@ -172,6 +172,66 @@ export default function Home() {
               Experience
             </h1>
             <hr />
+            <h1 className="edu-title">
+              Colorado Poolscapes • WordPress Developer
+            </h1>
+            <h2 className="edu-subtitle">May 2025 - Present</h2>
+            <ul className="edu-description">
+              <li>
+                Worked on updates to the{" "}
+                <Link href="https://coloradopoolscapes.com/" target="_blank">
+                  <span className="edu-link">Colorado Poolscapes website</span>
+                </Link>{" "}
+                implementing our{" "}
+                <Link
+                  href="https://coloradopoolscapes.com/service-repair-maintenance/maintenance/"
+                  target="_blank"
+                >
+                  <span className="edu-link">maintenance page</span>
+                </Link>{" "}
+                and sticky tab, matching styling consistencies. Created and
+                implemented our online form through Formstack.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="skills-container">
+        <div className="skills-box">
+          <h1 className="subject-title">Skills</h1>
+          <hr />
+          <div className="skills-detail">
+            <div>
+              <h1 className="skills-title">Programming Languages</h1>
+              <span>JavaScript | Python | Java</span>
+            </div>
+            <div>
+              <h1 className="skills-title">Frontend Development</h1>
+              <span>React | HTML/CSS | Tailwind | Next.js</span>
+            </div>
+            <div>
+              <h1 className="skills-title">Backend Development</h1>
+              <span>Node.js | Express.js </span>
+            </div>
+            <div>
+              <h1 className="skills-title">Databases</h1>
+              <span>MongoDB | MySQL | SQLite</span>
+            </div>
+            <div>
+              <h1 className="skills-title">Data Visualization</h1>
+              <span>chart.js</span>
+            </div>
+            <div>
+              <h1 className="skills-title">Cloud</h1>
+              <span>Docker</span>
+            </div>
+            <div>
+              <h1 className="skills-title">Other</h1>
+              <span>
+                Git | RESTful APIs | WordPress | Claris FileMaker | Formstack |
+                Customer Service | Project Coordination
+              </span>
+            </div>
           </div>
         </div>
       </section>

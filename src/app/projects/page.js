@@ -17,7 +17,6 @@ function Projects() {
           {projectList.map((project, i) => (
             <ProjectCard
               key={i}
-              // img={project.img}
               name={project.name}
               link={project.link}
               description={project.description}
