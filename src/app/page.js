@@ -75,7 +75,7 @@ export default function Home() {
                 <li>
                   <Link
                     target="_blank"
-                    href="/assets/images/resume.pdf"
+                    href="/assets/resume.pdf"
                     className="social-link"
                   >
                     <span>Resume</span>
