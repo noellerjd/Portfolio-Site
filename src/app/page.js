@@ -35,8 +35,8 @@ export default function Home() {
               <span className="title-name">Justin Noeller</span>
               <h2 className="subtitle">Software Developer</h2>
             </div>
-            <div className="dev-description">
-              <p>
+            <div>
+              <p className="dev-description">
                 I&apos;m a college student studying at Colorado Technical
                 University with experience in full-stack development and
                 software development. I have a passion for continuous learning

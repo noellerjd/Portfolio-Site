@@ -13,7 +13,6 @@ html {
 }
 
 #main-container {
-  padding: 0px 10vw 0px 10vw;
   margin-top: 120px;
 }
 
@@ -55,7 +54,7 @@ html {
 }
 
 .dev-description {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 #profile-picture {
@@ -107,10 +106,7 @@ html {
 .subject-title {
   font-size: 1.7rem;
   color: var(--lgreen);
-}
-
-#experience {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .subject-box p {
@@ -145,14 +141,37 @@ html {
   .dev-box {
     flex-direction: column;
     text-align: center;
+    margin: 0px;
   }
   .dev-info {
     font-size: 4rem;
-    display: block;
-    /* flex-direction: column; */
-    /* max-width: 50vw; */
+    align-items: center;
+    /* display: block; */
   }
+  .dev-description {
+    width: 80vw;
+  }
+
   .dev-image {
+    width: 40vw;
+  }
+  #subject-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .subject-box {
+    width: 80vw;
+  }
+  .dev-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .social-link {
+    justify-content: space-between;
     width: 40vw;
   }
 }
