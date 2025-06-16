@@ -52,8 +52,8 @@ export default function Home() {
                     href="https://github.com/noellerjd"
                     className="social-link"
                   >
-                    <FaGithub className="social-icon" />
                     <span>Github</span>
+                    <FaGithub className="social-icon" />
                   </Link>
                 </li>
                 <li>
@@ -62,14 +62,14 @@ export default function Home() {
                     href="https://www.linkedin.com/in/justin-noeller/"
                     className="social-link"
                   >
-                    <FaLinkedin className="social-icon" />
                     <span>LinkedIn</span>
+                    <FaLinkedin className="social-icon" />
                   </Link>
                 </li>
                 <li>
                   <button onClick={handleEmailClick} className="social-link">
-                    <FaEnvelope className="social-icon" />
                     <span>{emailCopied ? "Copied" : "Email"}</span>
+                    <FaEnvelope className="social-icon" />
                   </button>
                 </li>
                 <li>
@@ -78,8 +78,8 @@ export default function Home() {
                     href="/assets/images/resume.pdf"
                     className="social-link"
                   >
-                    <FaDownload className="social-icon" />
                     <span>Resume</span>
+                    <FaDownload className="social-icon" />
                   </Link>
                 </li>
               </ul>
@@ -182,7 +182,7 @@ export default function Home() {
                 <Link href="https://coloradopoolscapes.com/" target="_blank">
                   <span className="edu-link">Colorado Poolscapes website</span>
                 </Link>{" "}
-                implementing our{" "}
+                creating and implementing our{" "}
                 <Link
                   href="https://coloradopoolscapes.com/service-repair-maintenance/maintenance/"
                   target="_blank"

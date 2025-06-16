@@ -19,6 +19,7 @@ function Projects() {
               key={i}
               name={project.name}
               link={project.link}
+              short_description={project.short_description}
               description={project.description}
               video={project.video}
               technologies={project.technologies}

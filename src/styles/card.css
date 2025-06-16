@@ -121,6 +121,10 @@
   background-color: var(--lblue);
 }
 
+.short-description {
+  display: none;
+}
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -133,23 +137,72 @@
 }
 
 @media screen and (max-width: 1006px) {
+  .project-container {
+    margin: 0;
+    padding: 0;
+  }
+
   .project-card {
     flex-direction: column;
+    background-color: transparent;
     justify-content: center;
     align-items: center;
     width: 60vw;
     padding: 10px;
   }
+  .tech-list {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tech-item {
+    font-size: 0.9rem;
+    background-color: var(--lgreen);
+    margin-right: 2px;
+  }
+
+  .tech-item:last-child {
+    margin-right: 0px;
+  }
+
+  .line {
+    color: var(--lgreen);
+    background-color: var(--lgreen);
+    padding: 1px;
+    width: 90vw;
+  }
 
   .project-title {
     font-size: x-large;
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-link {
+    width: max-content;
   }
 
   .project-info {
     text-align: center;
   }
 
-  .project-text {
+  .project-short {
+    width: 90vw;
+  }
+
+  .project-description {
+    display: none;
+  }
+
+  .short-description {
+    display: flex;
+    width: auto;
+    justify-items: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .project-arrow {
     display: none;
   }
 }

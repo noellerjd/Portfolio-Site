@@ -38,6 +38,9 @@ export default function projectCard(props) {
             {props.description}
           </p>
         </div>
+        <div className="short-description">
+          <p className="project-short">{props.short_description}</p>
+        </div>
         <div className="project-tech">
           <ul className="tech-list">
             {props.technologies.map((tech, i) => (
@@ -48,46 +51,7 @@ export default function projectCard(props) {
           </ul>
         </div>
       </div>
+      <div className="line" />
     </div>
-
-    // <div className="project-card">
-    //   <div className="project-inner">
-    //     <a
-    //       href={props.link}
-    //       className="project-link"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       <Image
-    //         className="project-img"
-    //         src={props.img}
-    //         alt={props.name}
-    //         width={250}
-    //         height={200}
-    //       />
-    //     </a>
-    //   </div>
-    //   <div className="description-container">
-    //     <a href={props.link} className="project-link" target="_blank">
-    //       <h1 className="project-title">
-    //         <span className="project-arrow">{"▶"}</span>
-    //         {props.name}
-    //       </h1>
-    //     </a>
-    //     <div className="project-description">
-    //       {hasVideo && (
-    //         <p className="video-link">
-    //           <a href={props.video} target="_blank" rel="noopener noreferrer">
-    //             <span className="project-arrow">{"▶"}</span>Video Demonstration
-    //           </a>
-    //         </p>
-    //       )}
-    //       {props.description.length > 300
-    //         ? props.description.substring(0, 300) + "..."
-    //         : props.description}
-    //       {/* {props.description} */}
-    //     </div>
-    //   </div>
-    // </div>
   );
 }
