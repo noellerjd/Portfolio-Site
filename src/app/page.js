@@ -38,9 +38,10 @@ export default function Home() {
             <div className="dev-description">
               <p>
                 I&apos;m a college student studying at Colorado Technical
-                University with experience in full stack development and
+                University with experience in full-stack development and
                 software development. I have a passion for continuous learning
-                and love the creative process of building applications.
+                and I love the problem solving and creative process of building
+                applications.
               </p>
             </div>
             <div className="link-container">
@@ -86,9 +87,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="about-container">
-        <div className="about-box">
-          <h1>About Me</h1>
+      <section id="subject-container">
+        <div className="subject-box">
+          <h1 className="subject-title">About Me</h1>
           <hr />
           <p>
             My journey as a Software Engineer began way back when I was in 4th
@@ -113,7 +114,7 @@ export default function Home() {
             my knowledge and build cool things while programming!
           </p>
           <p>
-            When I&apost;m not on my computer, I am typically either playing D&D
+            When I&apos;m not on my computer, I am typically either playing D&D
             with my friends, out walking my corgi Einstein, or rock climbing
             with my wife Bri. During my free time I also love to explore
             philosopy, I was lucky to be able to take {"("}and re-take multiple
@@ -124,6 +125,54 @@ export default function Home() {
             learn. My favorite thing about philosopy is that even when
             re-reading an essay or book, I always pick up something new!
           </p>
+        </div>
+        <div className="subject-box">
+          <div>
+            <h1 className="subject-title">Education</h1>
+            <hr />
+            <h1 className="edu-title">
+              Colorado Technical University • BS in Computer Science
+            </h1>
+            <h2 className="edu-subtitle">July 2024 - July 2027</h2>
+            <ul className="edu-description">
+              <li>GPA: 4.0</li>
+              <li>President&apos;s list 2024-2025</li>
+              <li>
+                Important Courses {"("}completed so far{")"}: Problem Solving in
+                Computer Science, Fundamentals of Networking, Principles of
+                Programming Languages, Python Programming, Java Programming.
+              </li>
+            </ul>
+            <h1 className="edu-title">
+              Denver University • Full-Stack Development Bootcamp Certification
+            </h1>
+            <h2 className="edu-subtitle">April 2022 - Oct 2022</h2>
+            <ul className="edu-description">
+              <li>Certification: Passed</li>
+              <li>
+                Important Things Learned: HTML, CSS, JavaScript, jQuery,
+                Bootstrap, Express.js, Node.js, MongoDB, MySQL, and Git.
+              </li>
+            </ul>
+            <h1 className="edu-title">
+              Claris • Claris FileMaker Pro Associate Certification
+            </h1>
+            <h2 className="edu-subtitle">Jan 2025</h2>
+            <ul className="edu-description">
+              <li>Certification: Passed</li>
+              <li>
+                Important Things Learned: Working with cross-platform relational
+                databases within FileMaker utilizing Tables, Fields, and
+                Relationships along side Layout Design and Data Management.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h1 className="subject-title" id="experience">
+              Experience
+            </h1>
+            <hr />
+          </div>
         </div>
       </section>
     </div>
