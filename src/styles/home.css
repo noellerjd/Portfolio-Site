@@ -1,0 +1,102 @@
+:root {
+  --lblack: #424242;
+  --lgreen: #a4cf9b;
+  --lblue: #61dafb;
+  --grey: #dadada;
+  --white: #fff;
+  --dgreen: #5a874f;
+  --dblack: #222222;
+}
+
+html {
+  font-family: var(--scp);
+}
+
+.main-container {
+  padding: 0px 10vw 0px 10vw;
+  margin-top: 120px;
+}
+
+.dev-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+  /* background-color: var(--lblack); */
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.dev-info {
+  font-size: 4rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 50vw;
+}
+
+.title-container {
+  line-height: normal;
+  padding-bottom: 30px;
+  user-select: none;
+  text-align: center;
+}
+
+.title-name {
+  color: var(--lgreen);
+}
+
+.subtitle {
+  color: var(--grey);
+  font-size: 1.8rem;
+}
+
+.dev-image {
+  width: 20vw;
+}
+
+.dev-description {
+  font-size: 1.5rem;
+}
+
+#profile-picture {
+  border-radius: 100%;
+  background-color: var(--lgreen);
+  border: solid var(--lgreen) 5px;
+}
+
+.dev-links {
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid var(--lgreen) 1px;
+  padding: 2px 7px 2px 7px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-link:hover {
+  color: var(--lgreen);
+  border-radius: 10px;
+}
+
+.social-icon {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 1006px) {
+  .dev-box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .dev-image {
+    width: 40vw;
+  }
+}
