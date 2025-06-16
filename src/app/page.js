@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <section className="main-container">
+      <section id="main-container">
         <div className="dev-box">
           <div className="dev-image">
             <Image id="profile-picture" src={Picture} alt="profile picture" />
@@ -84,6 +84,46 @@ export default function Home() {
               </ul>
             </div>
           </div>
+        </div>
+      </section>
+      <section id="about-container">
+        <div className="about-box">
+          <h1>About Me</h1>
+          <hr />
+          <p>
+            My journey as a Software Engineer began way back when I was in 4th
+            grade I and picked up my mom&apos;s C++ for Dummies book. From there
+            I began to love the problem solving and design aspect of Computer
+            Science even though all I was making was simple text adventures for
+            my friends to play. Since then, I have earned my certification
+            through a Full-Stack Development bootcamp through Denver University
+            and I am working towards my BS in Computer Science through Colorado
+            Technical University.
+          </p>
+          <p>
+            Currently, I am trying to earn my first role as a Software
+            Developer. In my free time, I have been working on different
+            projects I can use in my spare time, such as a Discord bot coded
+            through Python and hosted through docker for my personal Discord
+            server, a todo app coded in Python to help me keep track of
+            important dates {"("}that I still use everyday{")"}, and various
+            front-end and back-end projects to help me keep growing and testing
+            my knowledge. I have also been working on a Minecraft Plugin using
+            Java and have a few plans for some other interesting ways to expand
+            my knowledge and build cool things while programming!
+          </p>
+          <p>
+            When I&apost;m not on my computer, I am typically either playing D&D
+            with my friends, out walking my corgi Einstein, or rock climbing
+            with my wife Bri. During my free time I also love to explore
+            philosopy, I was lucky to be able to take {"("}and re-take multiple
+            times{")"} a philosopy class for my elective in high school. Ever
+            since then, exploring other peoples ideas and understanding the
+            world from a variety of perspectives has been a fun way to grow my
+            own emotional intelligence and help satiate my need to continuously
+            learn. My favorite thing about philosopy is that even when
+            re-reading an essay or book, I always pick up something new!
+          </p>
         </div>
       </section>
     </div>

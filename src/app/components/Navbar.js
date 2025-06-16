@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import "../../styles/navbar.css";
 
@@ -15,14 +14,14 @@ export default function Navbar() {
         </div>
       </Link>
       <div className="header-links">
-        <Link href="/about" className="about">
+        {/* <Link href="/about" className="about">
           <span>
             <span>
               <span className="arrow">{`▶`}</span>About
             </span>
           </span>
           Me
-        </Link>
+        </Link> */}
         <Link href="/projects" className="projects">
           <span>
             <span>
