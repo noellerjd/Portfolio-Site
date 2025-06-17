@@ -97,7 +97,7 @@ export default function Home() {
               grade. I picked up my mom&apos;s C++ for Dummies book and made a
               few text adventure games for my friends to play. From there I
               began to love the problem-solving and design aspect of Computer
-              Science Since then, I have earned my certification through a
+              Science. Since then, I have earned my certification through a
               Full-Stack Development boot camp through Denver University and I
               am working towards my BS in Computer Science through Colorado
               Technical University.
