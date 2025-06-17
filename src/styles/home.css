@@ -12,6 +12,13 @@ html {
   font-family: var(--scp);
 }
 
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #main-container {
   margin-top: 120px;
 }
@@ -22,7 +29,6 @@ html {
   align-items: center;
   flex-direction: row-reverse;
   /* background-color: var(--lblack); */
-  border-radius: 30px;
   padding: 10px;
 }
 
@@ -30,7 +36,7 @@ html {
   font-size: 4rem;
   display: flex;
   flex-direction: column;
-  max-width: 50vw;
+  max-width: 30vw;
 }
 
 .title-container {
@@ -50,7 +56,8 @@ html {
 }
 
 .dev-image {
-  width: 20vw;
+  margin-left: 30px;
+  width: 15vw;
 }
 
 .dev-description {
@@ -76,7 +83,7 @@ html {
   justify-content: space-between;
   align-items: center;
   border: solid var(--lgreen) 1px;
-  padding: 2px 7px 2px 7px;
+  padding: 3px 9px 3px 9px;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
 }
@@ -99,7 +106,7 @@ html {
 }
 
 .subject-box {
-  width: 40vw;
+  width: 22.4vw;
   margin: 0px 20px 0px 20px;
 }
 
@@ -151,6 +158,7 @@ html {
   display: flex;
   justify-content: center;
   margin-bottom: 70px;
+  width: 46.5vw;
 }
 
 .skills-box {
@@ -173,8 +181,14 @@ html {
 @media screen and (max-width: 1006px) {
   .dev-box {
     flex-direction: column;
-    text-align: center;
     margin: 0px;
+  }
+  .title-container {
+    font-size: 2.2rem;
+    width: 100vw;
+  }
+  .subtitle {
+    font-size: 1.1rem;
   }
   .dev-info {
     font-size: 4rem;
@@ -182,12 +196,20 @@ html {
     /* display: block; */
   }
   .dev-description {
+    text-align: center;
+    width: 80vw;
+  }
+
+  .link-container {
     width: 80vw;
   }
 
   .dev-image {
-    width: 40vw;
+    width: 30vw;
+    padding-bottom: 10px;
+    margin: 0px;
   }
+
   #subject-container {
     display: flex;
     flex-direction: column;
@@ -207,5 +229,9 @@ html {
     justify-content: space-between;
     margin-top: 5px;
     width: 40vw;
+  }
+
+  #skills-container {
+    width: 80vw;
   }
 }
