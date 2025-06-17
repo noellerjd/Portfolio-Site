@@ -94,7 +94,8 @@ export default function Home() {
             <hr />
             <p>
               My journey as a Software Engineer began way back when I was in 4th
-              grade I picked up my mom&apos;s C++ for Dummies book. From there I
+              grade. I picked up my mom&apos;s C++ for Dummies book and made a
+              few text adventure games for my friends to play. From there I
               began to love the problem-solving and design aspect of Computer
               Science even though all I was making was simple text adventures
               for my friends to play. Since then, I have earned my certification
