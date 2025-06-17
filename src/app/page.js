@@ -94,13 +94,13 @@ export default function Home() {
             <hr />
             <p>
               My journey as a Software Engineer began way back when I was in 4th
-              grade I and picked up my mom&apos;s C++ for Dummies book. From
-              there I began to love the problem solving and design aspect of
-              Computer Science even though all I was making was simple text
-              adventures for my friends to play. Since then, I have earned my
-              certification through a Full-Stack Development bootcamp through
-              Denver University and I am working towards my BS in Computer
-              Science through Colorado Technical University.
+              grade I picked up my mom&apos;s C++ for Dummies book. From there I
+              began to love the problem-solving and design aspect of Computer
+              Science even though all I was making was simple text adventures
+              for my friends to play. Since then, I have earned my certification
+              through a Full-Stack Development boot camp through Denver
+              University and I am working towards my BS in Computer Science
+              through Colorado Technical University.
             </p>
             <p>
               Currently, I am trying to earn my first role as a Software
@@ -108,7 +108,7 @@ export default function Home() {
               projects I can use in my spare time, such as a Discord bot coded
               through Python and hosted through docker for my personal Discord
               server, a todo app coded in Python to help me keep track of
-              important dates {"("}that I still use everyday{")"}, and various
+              important dates{" ("}that I still use every day{")"}, and various
               front-end and back-end projects to help me keep growing and
               testing my knowledge. I have also been working on a Minecraft
               Plugin using Java and have a few plans for some other interesting
@@ -117,15 +117,15 @@ export default function Home() {
             </p>
             <p>
               When I&apos;m not on my computer, I am typically either playing
-              D&D, out walking my corgi Einstein, playing video games with
-              friends, or rock climbing with my wife Bri. During my free time I
-              also love to explore philosopy, I was lucky to be able to take{" "}
-              {"("}and re-take multiple times{")"} a philosopy class for my
-              elective in high school. Ever since then, exploring other peoples
+              D&D, walking my corgi Einstein, playing video games with friends,
+              or rock climbing with my wife Bri. During my free time, I also
+              love to explore philosophy, I was lucky to be able to take{" ("}
+              and re-take multiple times{")"} a philosophy class for my elective
+              in high school. Ever since then, exploring other people&apos;s
               ideas and understanding the world from a variety of perspectives
-              has been a fun way to grow my own emotional intelligence and help
+              has been a fun way to grow my emotional intelligence and help
               satiate my need to continuously learn. My favorite thing about
-              philosopy is that even when re-reading an essay or book, I always
+              philosophy is that even when re-reading an essay or book, I always
               pick up something new!
             </p>
           </div>
