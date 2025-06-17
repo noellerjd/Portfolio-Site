@@ -141,9 +141,10 @@ export default function Home() {
                 <li>GPA: 4.0</li>
                 <li>President&apos;s list 2024-2025</li>
                 <li>
-                  Important Courses {"("}completed so far{")"}: Problem Solving
-                  in Computer Science, Fundamentals of Networking, Principles of
-                  Programming Languages, Python Programming, Java Programming.
+                  Relavent Coursework {"("}completed so far{")"}: Problem
+                  Solving in Computer Science, Fundamentals of Networking,
+                  Principles of Programming Languages, Python Programming, Java
+                  Programming.
                 </li>
               </ul>
               <h1 className="edu-title">
@@ -152,10 +153,9 @@ export default function Home() {
               </h1>
               <h2 className="edu-subtitle">April 2022 - Oct 2022</h2>
               <ul className="edu-description">
-                <li>Certification: Passed</li>
                 <li>
-                  Important Things Learned: HTML, CSS, JavaScript, jQuery,
-                  Bootstrap, Express.js, Node.js, MongoDB, MySQL, and Git.
+                  HTML, CSS, JavaScript, jQuery, Bootstrap, Express.js, Node.js,
+                  MongoDB, MySQL, and Git.
                 </li>
               </ul>
               <h1 className="edu-title">
@@ -163,12 +163,10 @@ export default function Home() {
               </h1>
               <h2 className="edu-subtitle">Jan 2025</h2>
               <ul className="edu-description">
-                <li>Certification: Passed</li>
                 <li>
-                  Important Things Learned: Working with cross-platform
-                  relational databases within FileMaker utilizing Tables,
-                  Fields, and Relationships along side Layout Design and Data
-                  Management.
+                  Working with cross-platform relational databases within
+                  FileMaker utilizing tables, fields, and relationships along
+                  side layout design and data management.
                 </li>
               </ul>
             </div>
@@ -196,8 +194,17 @@ export default function Home() {
                   >
                     <span className="edu-link">maintenance page</span>
                   </Link>{" "}
-                  and sticky tab, matching styling consistencies. Created and
-                  implemented our online form through Formstack.
+                  and sticky tab, matching styling consistencies.
+                </li>
+                <li>
+                  Created and implemented on the{" "}
+                  <Link
+                    href="https://coloradopoolscapes.com/service-repair-maintenance/maintenance/"
+                    target="_blank"
+                  >
+                    <span className="edu-link">maintenance page</span>
+                  </Link>{" "}
+                  through formstack.
                 </li>
               </ul>
             </div>
