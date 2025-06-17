@@ -114,16 +114,17 @@ export default function Home() {
             my knowledge and build cool things while programming!
           </p>
           <p>
-            When I&apos;m not on my computer, I am typically either playing D&D
-            with my friends, out walking my corgi Einstein, or rock climbing
-            with my wife Bri. During my free time I also love to explore
-            philosopy, I was lucky to be able to take {"("}and re-take multiple
-            times{")"} a philosopy class for my elective in high school. Ever
-            since then, exploring other peoples ideas and understanding the
-            world from a variety of perspectives has been a fun way to grow my
-            own emotional intelligence and help satiate my need to continuously
-            learn. My favorite thing about philosopy is that even when
-            re-reading an essay or book, I always pick up something new!
+            When I&apos;m not on my computer, I am typically either playing D&D,
+            out walking my corgi Einstein, playing video games with friends, or
+            rock climbing with my wife Bri. During my free time I also love to
+            explore philosopy, I was lucky to be able to take {"("}and re-take
+            multiple times{")"} a philosopy class for my elective in high
+            school. Ever since then, exploring other peoples ideas and
+            understanding the world from a variety of perspectives has been a
+            fun way to grow my own emotional intelligence and help satiate my
+            need to continuously learn. My favorite thing about philosopy is
+            that even when re-reading an essay or book, I always pick up
+            something new!
           </p>
         </div>
         <div className="subject-box">
