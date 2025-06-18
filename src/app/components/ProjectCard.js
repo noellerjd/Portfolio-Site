@@ -50,8 +50,8 @@ export default function projectCard(props) {
             ))}
           </ul>
         </div>
+        <div className="line" />
       </div>
-      <div className="line" />
     </div>
   );
 }

@@ -9,6 +9,16 @@
 }
 
 .showcase {
+  display: -mox-flex;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  justify-content: center;
+  align-items: center;
+}
+
+.project-section {
   display: flex;
   justify-content: center;
 }
@@ -16,7 +26,7 @@
 #showcase-text {
   margin: 90px 0px 20px 0px;
   font-size: 2.2rem;
-  background-color: var(--lblack);
+  /* background-color: var(--lblack); */
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 30px;
@@ -28,10 +38,10 @@
 
 .project-card {
   animation: fadeInUp 0.6s ease-out forwards;
-  background-color: var(--lblack);
+  /* background-color: var(--lblack); */
   margin: 10px 0px 10px 0px;
   display: flex;
-  width: 65vw;
+  width: 55vw;
   justify-self: center;
   border-radius: 30px;
 }
@@ -105,6 +115,7 @@
 
 .tech-list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .tech-item {
@@ -123,6 +134,14 @@
 
 .short-description {
   display: none;
+}
+
+.line {
+  color: var(--lgreen);
+  background-color: var(--lgreen);
+  padding: 1px;
+  margin-top: 60px;
+  width: auto;
 }
 
 @keyframes fadeInUp {
@@ -163,13 +182,6 @@
 
   .tech-item:last-child {
     margin-right: 0px;
-  }
-
-  .line {
-    color: var(--lgreen);
-    background-color: var(--lgreen);
-    padding: 1px;
-    width: 90vw;
   }
 
   .project-title {
