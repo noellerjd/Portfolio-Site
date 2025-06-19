@@ -176,7 +176,7 @@ export default function Home() {
               </h1>
               <hr />
               <h1 className="edu-title">
-                Colorado Poolscapes • WordPress Developer
+                Colorado Poolscapes • WordPress Development
               </h1>
               <h2 className="edu-subtitle">May 2025 - Present</h2>
               <ul className="edu-description">
