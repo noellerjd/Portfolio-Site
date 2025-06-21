@@ -14,14 +14,6 @@ export default function Navbar() {
         </div>
       </Link>
       <div className="header-links">
-        {/* <Link href="/about" className="about">
-          <span>
-            <span>
-              <span className="arrow">{`▶`}</span>About
-            </span>
-          </span>
-          Me
-        </Link> */}
         <Link href="/projects" className="projects">
           <span>
             <span>
@@ -31,6 +23,7 @@ export default function Navbar() {
           Showcase
         </Link>
       </div>
+      <div className="mobile-links">test</div>
     </div>
   );
 }
