@@ -197,7 +197,8 @@ export default function Home() {
                   and sticky tab, matching styling consistencies.
                 </li>
                 <li>
-                  Created and implemented on the{" "}
+                  Created and implemented functional service agreement form on
+                  the{" "}
                   <Link
                     href="https://coloradopoolscapes.com/service-repair-maintenance/maintenance/"
                     target="_blank"
