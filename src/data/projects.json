@@ -54,6 +54,6 @@
     "link": "https://github.com/noellerjd/portfolio-site",
     "short_description": "You're currently looking at it! Designed to help showcase my skills in a pleasing way, with a mobile first mindset.",
     "description": "You're currently looking at it! I set out to redesign my original React portfolio in NextJS to keep up to date and design my site with a large focus on a satisfying layout and colorscheme.",
-    "technologies": ["NextJS", "HTML/CSS", "JavaScript", "JSON"]
+    "technologies": ["NextJS", "HTML/CSS", "JavaScript", "JSON", "Vercel"]
   }
 ]
