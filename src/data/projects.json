@@ -4,7 +4,13 @@
     "link": "https://github.com/noellerjd/dnd-project",
     "short_description": "WIP - Designed to help me learn more about AI implementation, an online dungeon master using Google Gemini API to make a fun gameplay experience",
     "description": "WIP - My online AI DM is designed to help me learn more about AI implementation, it features ways to store information like character abilities, character stats, and items. The idea would be that the AI can use these as a reference, in addition to dice roll logic implemented, to help inform the AI and cut down on unecessary reiteration with the AI.",
-    "technologies": ["NextJS", "HTML/CSS", "JavaScript", "Google Gemini API"]
+    "technologies": [
+      "NextJS",
+      "HTML/CSS",
+      "JavaScript",
+      "JSON",
+      "Google Gemini"
+    ]
   },
   {
     "name": "Type Bot",
@@ -42,5 +48,12 @@
     "short_description": "Task Manager App to help keep track of events and deadlines and utilizes Windows 10/11 notifications.",
     "description": "I made my Task Manager App in Python to help me personally keep track of events and deadlines. I used JSON to store data locally and wanted it to be something simple that would launch on startup and give notifications for any task that's due. It's a good foundation for further development, and is easily downloadable and works with Windows 10/11. I developed this with the hope that anyone who'd like to use the program wouldn't need any programming knowledge to run the app!",
     "technologies": ["Python", "JSON", "PyQt5"]
+  },
+  {
+    "name": "Portfolio Website",
+    "link": "https://github.com/noellerjd/portfolio-site",
+    "short_description": "You're currently looking at it! Designed to help showcase my skills in a pleasing way, with a mobile first mindset.",
+    "description": "You're currently looking at it! I set out to redesign my original React portfolio in NextJS to keep up to date and design my site with a large focus on a satisfying layout and colorscheme.",
+    "technologies": ["NextJS", "HTML/CSS", "JavaScript", "JSON"]
   }
 ]
