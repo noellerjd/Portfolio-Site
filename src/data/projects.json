@@ -16,7 +16,7 @@
     "name": "Type MMO - RPG/MMO Minecraft Plugin",
     "link": "https://github.com/noellerjd/type-mmo",
     "short_description": "WIP - Minecraft plugin meant to track stats like a normal RPG MMO: Acrobatics, Woodcutting, etc. Designed as a project to help familiarize myself with Java further",
-    "description": "WIP - My TypeMMO is a Paper Minecraft Plugin designed to simulate user progression by tracking stats like Acrobatics, Woodcutting, etc. The main idea behind this project is to create something that other people can use, while also building upon my Java knowledge.",
+    "description": "WIP - My TypeMMO is a Paper Minecraft Plugin designed to simulate user progression by tracking stats like Acrobatics, Woodcutting, etc. The main idea behind this project is to create something that other server owners can use, while also building upon my Java knowledge.",
     "technologies": ["Java", "Paper", "Bukkit"]
   },
   {
