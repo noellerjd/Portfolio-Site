@@ -1,5 +1,12 @@
 [
   {
+    "name": "Hourly Update",
+    "link": "/",
+    "short_description": "A Python app that connects to an Oracle database to allow for hourly updates to be displayed visually on a monitor. Designed to capture whatever the user needs and allows them to screenshot the display to share with others.",
+    "description": "This project was done during my training at KNAPP to help my trainers who were previously running multiple queries every hour to get updates on the warehouse. This PyQt5 python app takes in whatever queries the user needs, and displays the results in a visually appealing way on their monitor, allowing for quick screenshots to share with others. The app is designed to be customizable to fit the needs of the user, and was a great way for me to learn both app development and interactions with an Oracle database.",
+    "technologies": ["Python", "PyQt5", "cx_Oracle"]
+  },
+  {
     "name": "Online AI Dungeon Master",
     "link": "https://github.com/noellerjd/dnd-project",
     "short_description": "WIP - Designed to help me learn more about AI implementation, an online dungeon master using Google Gemini API to make a fun gameplay experience",

@@ -39,10 +39,11 @@ export default function Home() {
               <div>
                 <p className="dev-description">
                   I&apos;m a college student studying at Colorado Technical
-                  University with experience in full-stack development and
-                  software development. I have a passion for continuous learning
-                  and I love the problem solving and creative process of
-                  building applications.
+                  University and currently employed as an MSCC Agent with KNAPP.
+                  I have experience in full-stack web and software development,
+                  Commissioning, QA Testing,and DevOps. I have a passion for
+                  continuous learning and I love the problem solving and
+                  creative process of building applications.
                 </p>
               </div>
               <div className="link-container">
@@ -76,7 +77,7 @@ export default function Home() {
                   <div>
                     <Link
                       target="_blank"
-                      href="/assets/Justin_Noeller_Resume_2025.pdf"
+                      href="/assets/Justin_Noeller_Resume_2026.pdf"
                       className="social-link"
                     >
                       <span>Resume</span>
@@ -103,23 +104,20 @@ export default function Home() {
               Technical University.
             </p>
             <p>
-              Currently, I am trying to earn my first role as a Software
-              Developer. In my free time, I have been working on different
-              projects I can use in my spare time, such as a Discord bot coded
-              through Python and hosted through docker for my personal Discord
-              server, a todo app coded in Python to help me keep track of
-              important dates{" ("}that I still use every day{")"}, and various
-              front-end and back-end projects to help me keep growing and
-              testing my knowledge. I have also been working on a Minecraft
-              Plugin using Java and have a few plans for some other interesting
-              ways to expand my knowledge and build cool things while
-              programming!
+              Currently, I am working as an MSCC Agent for KNAPP Inc. in their
+              Multi-Site Control Center department. In this role, I have been
+              able to gain experience in QA testing, DevOps, and Commissioning
+              while working closely with Logistic Operations Engineers to
+              support the launch of new warehouse automation systems. I have
+              also had the opportunity to design and build a Python/PyQt5
+              desktop tool to help automate recurring database queries for LOEs,
+              improving response efficiency and streamlining reporting tasks.
             </p>
             <p>
               When I&apos;m not on my computer, I am typically either playing
-              D&D, walking my corgi Einstein, playing video games with friends,
-              or rock climbing with my wife Bri. During my free time, I also
-              love to explore philosophy, I was lucky to be able to take{" ("}
+              games, walking my corgi Einstein, or rock climbing with my wife
+              Bri. During my free time, I also love to explore philosophy, I was
+              lucky to be able to take{" ("}
               and re-take multiple times{")"} a philosophy class for my elective
               in high school. Ever since then, exploring other people&apos;s
               ideas and understanding the world from a variety of perspectives
@@ -144,7 +142,7 @@ export default function Home() {
                   Relavent Coursework {"("}completed so far{")"}: Problem
                   Solving in Computer Science, Fundamentals of Networking,
                   Principles of Programming Languages, Python Programming, Java
-                  Programming.
+                  Programming, C++ Programming, Data Structures and Algorithms.
                 </li>
               </ul>
               <h1 className="edu-title">
@@ -175,10 +173,43 @@ export default function Home() {
                 Experience
               </h1>
               <hr />
+              <h1 className="edu-title">KNAPP Inc • MSCC Agent</h1>
+              <h2 className="edu-subtitle"> Oct 2025 - Present</h2>
+              <ul className="edu-description">
+                <li>
+                  Selected as one of the first hires for the newly created
+                  Multi‑Site Control Center department, training directly with
+                  Logistic Operations Engineers (LOEs). Served as acting LOE
+                  during final training phase.
+                </li>
+                <li>
+                  Designed and built a Python/PyQt5 desktop tool to automate
+                  recurring database queries, reducing workload and improving
+                  response efficiency for LOEs, creating functionality that
+                  streamlined hourly reporting tasks and improved operator
+                  usability.
+                </li>
+                <li>
+                  Executed QA testing within both virtual machine environments
+                  using in‑house software as well as on‑site testing to validate
+                  workflows. Identified and documented issues to support
+                  operational readiness prior to launch.
+                </li>
+                <li>
+                  Assisted in onboarding and training new MSCC agents,
+                  accelerating readiness and standardizing best practices.
+                </li>
+                <li>
+                  Supported on‑site commissioning efforts, assisting with system
+                  readiness and operational setup prior to go‑live. Assisted on
+                  site during hand over to ensure smooth transition post
+                  go‑live.
+                </li>
+              </ul>
               <h1 className="edu-title">
                 Colorado Poolscapes • WordPress Development
               </h1>
-              <h2 className="edu-subtitle">May 2025 - Present</h2>
+              <h2 className="edu-subtitle">May 2025 - Oct 2025</h2>
               <ul className="edu-description">
                 <li>
                   Worked on updates to the{" "}
@@ -218,7 +249,7 @@ export default function Home() {
             <div className="skills-detail">
               <div>
                 <h1 className="skills-title">Programming Languages</h1>
-                <span>JavaScript | Python | Java</span>
+                <span>JavaScript | Python | Java | C++</span>
               </div>
               <div>
                 <h1 className="skills-title">Frontend Development</h1>
@@ -230,11 +261,11 @@ export default function Home() {
               </div>
               <div>
                 <h1 className="skills-title">Databases</h1>
-                <span>MongoDB | MySQL | SQLite</span>
+                <span>MongoDB | MySQL | SQLite | Oracle SQL</span>
               </div>
               <div>
                 <h1 className="skills-title">Data Visualization</h1>
-                <span>chart.js</span>
+                <span>chart.js | PyQt5</span>
               </div>
               <div>
                 <h1 className="skills-title">Cloud</h1>
@@ -244,7 +275,8 @@ export default function Home() {
                 <h1 className="skills-title">Other</h1>
                 <span>
                   Git | RESTful APIs | WordPress | Claris FileMaker | Formstack
-                  | Customer Service | Project Coordination
+                  | Customer Service | Project Coordination | QA Testing |
+                  DevOps
                 </span>
               </div>
             </div>
